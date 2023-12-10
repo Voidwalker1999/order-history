@@ -1,0 +1,37 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 120vh;
+    background-color: #2f323a;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+    background-color: #333;
+}
+
+.sidebar-nav li a.active {
+    background-color: #333;
+    color: #fff;
+}
