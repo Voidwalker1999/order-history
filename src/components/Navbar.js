@@ -3,7 +3,7 @@ import './Navbar.css';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/sun-tornado.svg)` }}>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/dragon-scales.svg)` }}>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-brand">
                     <img src={process.env.PUBLIC_URL + '/images/e-commerce logo.png'} alt="Logo" width="40" height="40" />
