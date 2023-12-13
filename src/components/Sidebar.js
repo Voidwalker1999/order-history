@@ -11,22 +11,22 @@ export default function Sidebar() {
                     <a href="#">Dashboard</a>
                 </li>
                 <li>
-                    <a href="#">Product management</a>
+                    <a href="#">Product Management</a>
                 </li>
                 <li className="active">
-                    <a href="#">Order management</a>
+                    <a href="#">Order Management</a>
                 </li>
                 <li>
                     <a href="#">Complaints</a>
                 </li>
                 <li>
-                    <a href="#">User management</a>
+                    <a href="#">User Management</a>
                 </li>
                 <li>
-                    <a href="#">Admin management</a>
+                    <a href="#">Admin Management</a>
                 </li>
                 <li>
-                    <a href="#">Events & activities</a>
+                    <a href="#">Events & Activities</a>
                 </li>
                 <li>
                     <a href="#">Settings</a>
