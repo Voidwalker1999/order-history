@@ -9,7 +9,7 @@ export default function Navbar() {
                     <img src={process.env.PUBLIC_URL + '/images/e-commerce logo.png'} alt="Logo" width="40" height="40" />
                 </div>
                 <div>
-                    <span className="navbar-brand-name">Skooler</span>
+                    <span className="navbar-brand-name">Schooler</span>
                 </div>
                 <div className="navbar-nav ml-auto">
                     <a className="nav-item nav-link" href="#">Home</a>

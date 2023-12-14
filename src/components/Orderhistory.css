@@ -1,6 +1,10 @@
+body {
+    overflow: hidden;
+}
+
 .order-history {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: rgba(227, 185, 185, 0.5);
     padding: 20px;
     margin-left: 200px;
 }
@@ -17,18 +21,19 @@
 .order-history-container {
     display: flex;
     justify-content: space-between;
-    flex-direction: column; /*Change the flex direction to column */
-    align-items: flex-start; /*Align items to the start */
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .order-history-section {
     width: 100%;
-    flex: 1;
-    background-color: #808080;
+    flex: 265px;
+    background-color: rgba(128, 128, 128, 1);
     border-radius: 5px;
     padding: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
+    overflow-y: auto;
 }
 
 .order-history-section:last-child {
@@ -36,17 +41,16 @@
 }
 
 .order-history-section h2 {
-    color: #333;
+    color: rgba(51, 51, 51, 1);
     font-size: 20px;
     margin-bottom: 20px;
 }
 
 .order-history-item {
-    background-color: #b6b6b6;
+    background-color: rgba(182, 182, 182, 1);
     border-radius: 5px;
     padding: 20px;
-    margin-bottom: 20px;
-    margin-left: 200px;
+    margin-bottom: 10px;
 }
 
 .order-history-item-header {
@@ -56,13 +60,13 @@
 }
 
 .order-history-item-header h3 {
-    color: #333;
+    color: rgba(51, 51, 51, 1);
     font-size: 18px;
     margin: 0;
 }
 
 .order-history-item-header h4 {
-    color: #666;
+    color: rgba(102, 102, 102, 1);
     font-size: 14px;
     margin: 0;
 }
@@ -73,22 +77,46 @@
     align-items: flex-start;
 }
 
-.order-history-item-body-left,
-.order-history-item-body-right {
+.order-history-item-body-left {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
     flex: 1;
+    justify-content: flex-start;
+}
+
+.order-history-item-body-right {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 .order-history-item-body-left p,
 .order-history-item-body-right p {
-    color: #666;
+    color: rgba(65, 65, 65, 1);
     font-size: 14px;
-    margin: 0;
+    margin: 20px 20px 20px 20px;
 }
 
 .order-history-item-body-left p + p {
-    margin-top: 5px;
+    margin: 20px 20px 20px 20px;
 }
 
 .order-history-item-body-right p + p {
     margin-top: 5px;
+}
+
+.order-history-item-body-right button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
 }

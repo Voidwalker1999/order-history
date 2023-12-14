@@ -17,21 +17,22 @@ export default function Orderhistory() {
                     {ongoingOrdersOpen && (
                         <div className="order-history-item">
                             <div className="order-history-item-header">
-                                <h3>Order #1</h3>
                                 <h4>Order date: 12/12/2020</h4>
                             </div>
                             <div className="order-history-item-body">
                                 <div className="order-history-item-body-left">
-                                    <h4>Order details</h4>
-                                    <p>Product name: Product #1</p>
-                                    <p>Product price: $100</p>
+                                    <p>Order ID: 123456</p>
+                                    <img src="product-image.jpg" alt="Product Image" />
+                                    <p>Product #1</p>
                                     <p>Quantity: 1</p>
-                                    <p>Total: $100</p>
+                                    <p>Price: $100</p>
+                                    <p>Order status: In Progress</p>
+                                    <p>Pickup location: ABC Store</p>
                                 </div>
                                 <div className="order-history-item-body-right">
-                                    <h4>Delivery details</h4>
-                                    <p>Delivery address: 123, ABC Street, XYZ City, State, Country</p>
-                                    <p>Delivery status: In Progress</p>
+                                    <button>Invoice</button>
+                                    <button>View</button>
+                                    <button>Delete</button>
                                 </div>
                             </div>
                         </div>
@@ -41,41 +42,43 @@ export default function Orderhistory() {
                     <h2 style={{ backgroundColor: 'green' }}>Completed Orders</h2>
                     <div className="order-history-item">
                         <div className="order-history-item-header">
-                            <h3>Order #2</h3>
                             <h4>Order date: 12/12/2020</h4>
                         </div>
                         <div className="order-history-item-body">
                             <div className="order-history-item-body-left">
-                                <h4>Order details</h4>
-                                <p>Product name: Product #1</p>
-                                <p>Product price: $100</p>
-                                <p>Quantity: 1</p>
-                                <p>Total: $100</p>
+                                <p>Order ID: 789012</p>
+                                <img src="product-image.jpg" alt="Product Image" />
+                                <p>Product #2</p>
+                                <p>Quantity: 2</p>
+                                <p>Price: $200</p>
+                                <p>Order status: Delivered</p>
+                                <p>Delivery address: 123, ABC Street, XYZ City, State, Country</p>
                             </div>
                             <div className="order-history-item-body-right">
-                                <h4>Delivery details</h4>
-                                <p>Delivery address: 123, ABC Street, XYZ City, State, Country</p>
-                                <p>Delivery status: Delivered</p>
+                                <button>Invoice</button>
+                                <button>View</button>
+                                <button>Delete</button>
                             </div>
                         </div>
                     </div>
                     <div className="order-history-item">
                         <div className="order-history-item-header">
-                            <h3>Order #3</h3>
                             <h4>Order date: 12/12/2020</h4>
                         </div>
                         <div className="order-history-item-body">
                             <div className="order-history-item-body-left">
-                                <h4>Order details</h4>
-                                <p>Product name: Product #1</p>
-                                <p>Product price: $100</p>
-                                <p>Quantity: 1</p>
-                                <p>Total: $100</p>
+                                <p>Order ID: 345678</p>
+                                <img src="product-image.jpg" alt="Product Image" />
+                                <p>Product #3</p>
+                                <p>Quantity: 10</p>
+                                <p>Price: $500</p>
+                                <p>Order status: Delivered</p>
+                                <p>Delivery address: 123, ABC Street, XYZ City, State, Country</p>
                             </div>
                             <div className="order-history-item-body-right">
-                                <h4>Delivery details</h4>
-                                <p>Delivery address: 123, ABC Street, XYZ City, State, Country</p>
-                                <p>Delivery status: Delivered</p>
+                                <button>Invoice</button>
+                                <button>View</button>
+                                <button>Delete</button>
                             </div>
                         </div>
                     </div>
