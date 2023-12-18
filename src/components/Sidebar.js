@@ -8,28 +8,28 @@ export default function Sidebar() {
             </div>
             <ul className="sidebar-menu">
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="http://localhost:3000/">Dashboard</a>
                 </li>
                 <li>
-                    <a href="#">Product Management</a>
+                    <a href="http://localhost:3000/">Product Management</a>
                 </li>
                 <li className="active">
-                    <a href="#">Order Management</a>
+                    <a href="http://localhost:3000/">Order Management</a>
                 </li>
                 <li>
-                    <a href="#">Complaints</a>
+                    <a href="http://localhost:3000/">Complaints</a>
                 </li>
                 <li>
-                    <a href="#">User Management</a>
+                    <a href="http://localhost:3000/">User Management</a>
                 </li>
                 <li>
-                    <a href="#">Admin Management</a>
+                    <a href="http://localhost:3000/">Admin Management</a>
                 </li>
                 <li>
-                    <a href="#">Events & Activities</a>
+                    <a href="http://localhost:3000/">Events & Activities</a>
                 </li>
                 <li>
-                    <a href="#">Settings</a>
+                    <a href="http://localhost:3000/">Settings</a>
                 </li>
             </ul>
         </div>

@@ -43,6 +43,7 @@
 
 .sidebar {
     position: fixed;
+    /* margin-top: 70px; */
     width: 200px;
     height: 100vh;
     background-color: #2f323a;
@@ -53,7 +54,8 @@
 
 .sidebar-header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
     font-size: large;
     font-weight: bold;
 }

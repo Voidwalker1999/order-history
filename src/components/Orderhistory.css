@@ -1,12 +1,9 @@
-body {
-    overflow: hidden;
-}
-
 .order-history {
     font-family: Arial, sans-serif;
     background-color: rgba(227, 185, 185, 0.5);
     padding: 20px;
     margin-left: 200px;
+    min-height: 100vh;
 }
 
 .order-history h1 {
@@ -95,7 +92,7 @@ body {
 .order-history-item-body-left p,
 .order-history-item-body-right p {
     color: rgba(65, 65, 65, 1);
-    font-size: 14px;
+    font-size: 13px;
     margin: 20px 20px 20px 20px;
 }
 
