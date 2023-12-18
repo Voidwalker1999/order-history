@@ -1,6 +1,7 @@
 # Example Image of the webpage
 
-![image](https://github.com/Voidwalker1999/order-history/assets/98208099/87243719-c138-492e-b5c9-b0db7716877e)
+![image](https://github.com/Voidwalker1999/order-history/assets/98208099/dff6fbdd-05e7-4cf4-bf86-85932e7dd2d5)
+
 
 
 # Getting Started with Create React App
